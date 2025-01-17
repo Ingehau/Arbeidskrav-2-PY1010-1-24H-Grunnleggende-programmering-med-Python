@@ -1,7 +1,7 @@
 # Arbeidskrav-2-PY1010-1-24H-Grunnleggende-programmering-med-Python
 
 
-Se vedlagt fil for besvarelse
+Se vedlagt fil for besvarelse. Har brukt VS code for kodeskriving og testing.
 
 Oppgavetekst: 
 
