@@ -100,8 +100,8 @@ a = float(input("Skriv inn verdi for a: "))
 b = float(input("Skriv inn verdi for b: "))
 
 areal, omkrets = beregn_areal_og_omkrets(a, b)
-print("Arealet av figuren er:", areal)
-print("Ytre omkrets av figuren er:", omkrets)
+print("Figurens areal er:", areal)
+print("Figurens omkrets er:", omkrets)
 
 
 # Oppgave 6
