@@ -5,7 +5,7 @@
 # Regn ut hvor gammel du blir i løpet av år 2024.
 alder = int(input("Hvilket år er du født? "))
 alder_i_2024 = 2024 - alder
-print("I 2024 er du", alder_i_2024, "år gammel.")
+print("I 2024 blir du", alder_i_2024, "år gammel.")
 
 
 # Oppgave 2
@@ -20,7 +20,7 @@ pizza_totalt = antall_elever * pizza_per_elev
 
 # Rund opp til nærmeste hele pizza ved å bruke math.ceil.
 pizza_rundet_opp = math.ceil(pizza_totalt)
-print("Det må handles inn", pizza_rundet_opp, "pizzaer til festen.")
+print("Det må handles inn", pizza_rundet_opp, "pizzaer.")
 
 
 # Oppgave 3
@@ -45,9 +45,9 @@ data = {
 }
 
 # b) Be brukeren om et land og skriv ut info
-land = input("Skriv inn et land (for eksempel 'England'): ")
+land = input("Skriv inn et land"): ")
 
-# For enkelhetens skyld antar jeg at brukeren skriver inn et land som finnes i data
+# Antar at brukeren skriver inn et land som finnes i data
 if land in data:
     hovedstad = data[land]["hovedstad"]
     innbyggere = data[land]["innbyggere"]
