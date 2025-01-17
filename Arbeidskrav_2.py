@@ -1,11 +1,11 @@
 # Arbeidskrav 2, PY1010-1-24H Grunnleggende programmering med Python
 
 # Oppgave 1
-# Programmet spør først om hvilket år du er født.
-# Deretter regner det ut hvor gammel du blir i løpet av år 2024.
+# Spør først om hvilket år du er født.
+# Regn ut hvor gammel du blir i løpet av år 2024.
 alder = int(input("Hvilket år er du født? "))
 alder_i_2024 = 2024 - alder
-print("I 2024 vil du være", alder_i_2024, "år gammel.")
+print("I 2024 er du", alder_i_2024, "år gammel.")
 
 
 # Oppgave 2
@@ -18,14 +18,14 @@ antall_elever = int(input("Skriv inn antall elever: "))
 pizza_per_elev = 0.25
 pizza_totalt = antall_elever * pizza_per_elev
 
-# Runder opp til nærmeste hele pizza ved å bruke math.ceil.
+# Rund opp til nærmeste hele pizza ved å bruke math.ceil.
 pizza_rundet_opp = math.ceil(pizza_totalt)
 print("Det må handles inn", pizza_rundet_opp, "pizzaer til festen.")
 
 
 # Oppgave 3
-# Vi lager et program som regner om grader til radianer.
-# Først importer numpy for å bruke np.pi
+# Lag et program som regner om grader til radianer.
+# Importer numpy for å bruke np.pi
 import numpy as np
 
 v_grad = float(input("Skriv inn gradtallet: "))
@@ -35,7 +35,7 @@ print("Gradtallet i radianer er:", v_rad)
 
 # Oppgave 4
 # a) Opprett en dictionary med land (keys), og info om hovedstad og antall innbyggere i millioner.
-# b) Programmet ber brukeren skrive inn et land og skriver ut hovedstad og antall innbyggere.
+# b) Be brukeren om å skrive inn et land og skriv ut hovedstad og antall innbyggere.
 # c) Programmet skal utvide dictionaryen med et nytt land som brukeren skriver inn.
 
 data = {
@@ -95,7 +95,7 @@ def beregn_areal_og_omkrets(a, b):
     
     return areal, omkrets
 
-# Vi kan teste funksjonen med input fra brukeren
+# Test funksjonen med input fra brukeren
 a = float(input("Skriv inn verdi for a: "))
 b = float(input("Skriv inn verdi for b: "))
 
